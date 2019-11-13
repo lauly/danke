@@ -44,6 +44,8 @@ type MomentsAdminRsp struct {
 	ReportCnt       int64                `json:"report_cnt"`
 }
 1
+2
+2
 func TestAlloc(w http.ResponseWriter, r *http.Request) {
 	var ss []*MomentsAdminRsp
 	var i int

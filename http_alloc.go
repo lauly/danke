@@ -43,7 +43,7 @@ type MomentsAdminRsp struct {
 	Flag            int8                 `json:"-"`
 	ReportCnt       int64                `json:"report_cnt"`
 }
-
+1
 func TestAlloc(w http.ResponseWriter, r *http.Request) {
 	var ss []*MomentsAdminRsp
 	var i int

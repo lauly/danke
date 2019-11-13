@@ -46,6 +46,7 @@ type MomentsAdminRsp struct {
 1
 2
 2
+333
 func TestAlloc(w http.ResponseWriter, r *http.Request) {
 	var ss []*MomentsAdminRsp
 	var i int
